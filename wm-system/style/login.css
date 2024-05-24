@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+}
+.line{
+    position: fixed;
+            top: 0;
+            left: 0;
+            width: 500px;
+}
+.content {
+    padding-top: 100px;
+    padding-left: 10px;
+    background: #ce9d08;
+    height: 100vh;
+    
+}
+
+ .content h2{
+    padding-top: 30px;
+    font-size: 34pt;
+    font-family: caladea;
+    text-align: center;
+  
+   
+}
+.content .shadow-text{
+    text-shadow: 3px 0px 3px rgba(0, 0, 0, 0.801);
+
+}
+.right-line{
+    position: fixed;
+            top: 50px;
+            right: 200px;
+          
+}
+.content1 {
+ width: 40rem;  
+}
+/*login-------------------------------------------------------------------------------------*/
+.login-container {
+    max-width: 500px;
+    margin: auto auto;
+    margin-top: 150px;
+    background: #f0b709;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    height: auto auto;
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 42pt;
+    font-family: caldea;
+    font-weight: bolder;
+}
+
+.login-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    color: black;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.password-toggle {
+    position: relative;
+    
+}
+
+.password-toggle input[type="password"] {
+    padding-right: 30px; 
+}
+
+.password-toggle .toggle-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #896905;
+    color: black;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 1cap;
+    font-family: caldea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #ce9d08;
+    color: white;
+}
+.create-account {
+    text-align: center;
+   margin-top: 5%;
+   
+}
+.create-account a{
+    color: black;
+    text-decoration: none;
+    font-family: caldea;
+    font-size: 12pt;
+}
+.create-account a:hover{
+   color: white;
+}
+
+.forgot-password {
+    text-align: center;
+   
+}
+.forgot-password a{
+    color: black;
+    text-decoration: none;
+    font-family: caldea;
+    font-size: 12pt;
+}
+.forgot-password a:hover{
+   color: white ;
+}
+/*validation*/
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 15px auto;
+}
